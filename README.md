@@ -38,7 +38,7 @@ Permite a los desarrolladores invertir menos tiempo en escribir mensajes de comm
 
 * BREAKING CHANGE: Se incluye si el commit introduce un cambio que rompe la retrocompatibilidad con versiones anteriores. Este tipo puede ir acompañado de cualquier otro tipo, como feat(api)! o fix(auth). La palabra clave BREAKING CHANGE: debe aparecer en el cuerpo o pie del mensaje. 
 
-Otros tipos comunes
+**Otros tipos comunes**
 
 * chore: Para tareas de mantenimiento que no modifican el código fuente ni los tests, como actualizar dependencias o modificar archivos de configuración. 
 
