@@ -29,6 +29,28 @@ Proporciona un historial de commit consistente y fácil de entender, lo que mejo
 * Eficiencia:
 Permite a los desarrolladores invertir menos tiempo en escribir mensajes de commit y más en la productividad, ya que el formato estandarizado reduce la ambigüedad
 
+
+**Tipos principales**
+
+* feat: Se utiliza para agregar una nueva funcionalidad. 
+
+* fix: Se usa para corregir un error. 
+
+* BREAKING CHANGE: Se incluye si el commit introduce un cambio que rompe la retrocompatibilidad con versiones anteriores. Este tipo puede ir acompañado de cualquier otro tipo, como feat(api)! o fix(auth). La palabra clave BREAKING CHANGE: debe aparecer en el cuerpo o pie del mensaje. 
+
+Otros tipos comunes
+
+* chore: Para tareas de mantenimiento que no modifican el código fuente ni los tests, como actualizar dependencias o modificar archivos de configuración. 
+
+* docs: Para cambios que afectan únicamente a la documentación. 
+* style: Para cambios que no afectan la lógica del código, como la corrección de estilos de código, formato o puntuación. 
+* refactor: Cuando se reorganiza código existente sin añadir ni corregir funcionalidad. 
+* perf: Para cambios que mejoran el rendimiento del código. 
+* test: Para agregar o modificar tests. 
+* build: Para cambios que afectan al sistema de compilación o a las dependencias externas. 
+* ci: Para cambios en los scripts o archivos de configuración de la integración continua. 
+* revert: Para revertir un commit anterior. Debe indicar el hash del commit que se está revirtiendo. 
+
 \
 \
 \
